@@ -1,2 +1,9 @@
 [telegraf]
-34.201.98.207
+54.146.227.149
+
+[telegraf:vars]
+ansible_ssh_user=Administrator
+ansible_ssh_pass=9x@@J*PVYv
+ansible_ssh_port=5985
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore 
